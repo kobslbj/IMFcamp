@@ -1,27 +1,27 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "陽明交大資財營",
+	description: "陽明交大資財營",
 	navItems: [
 		{
-			label: "Home",
+			label: "營隊介紹",
 			href: "/",
 		},
     {
-      label: "Docs",
+      label: "課程活動",
       href: "/docs",
     },
     {
-      label: "Pricing",
+      label: "營隊照片",
       href: "/pricing",
     },
     {
-      label: "Blog",
+      label: "學員回饋",
       href: "/blog",
     },
     {
-      label: "About",
+      label: "報名資訊",
       href: "/about",
     }
 	],
@@ -59,11 +59,5 @@ export const siteConfig = {
 			href: "/logout",
 		},
 	],
-	links: {
-		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
-	},
+
 };
