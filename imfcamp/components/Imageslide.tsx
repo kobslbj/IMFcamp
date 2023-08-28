@@ -5,16 +5,16 @@ import { RxDotFilled } from "react-icons/rx";
 
 export const ImageSlide = () => {
   const slides = [
-    { src: "/1.jpg" },
-    { src: "/2.jpg" },
-    { src: "/3.jpg" },
-    { src: "/4.jpg" },
-    { src: "/5.jpg" },
-    { src: "/6.jpg" },
-    { src: "/7.jpg" },
-    { src: "/coding.jpg" },
-    { src: "/economic.jpg" },
-    { src: "/10.jpg" },
+    { src: "/1.JPG" },
+    { src: "/2.JPG" },
+    { src: "/3.JPG" },
+    { src: "/4.JPG" },
+    { src: "/5.JPG" },
+    { src: "/6.JPG" },
+    { src: "/7.JPG" },
+    { src: "/coding.JPG" },
+    { src: "/economic.JPG" },
+    { src: "/10.JPG" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
