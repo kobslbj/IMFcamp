@@ -6,7 +6,7 @@ import NextLink from "next/link";
 
 export const Navbar = () => {
   return (
-    <NextUINavbar maxWidth="xl" position="sticky" className="bg-black">
+    <NextUINavbar maxWidth="xl"top-0 className="bg-black z-50 w-full fixed">
         <p className="font-bold text-slate-50 text-2xl">
           第十七屆陽明交大資財營
         </p>
