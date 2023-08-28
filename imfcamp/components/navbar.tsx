@@ -6,12 +6,12 @@ import NextLink from "next/link";
 
 export const Navbar = () => {
   return (
-    <NextUINavbar maxWidth="xl" position="sticky" className="text-slate-950">
+    <NextUINavbar maxWidth="xl" position="sticky" className="bg-black">
         <p className="font-bold text-slate-50 text-2xl">
           第十七屆陽明交大資財營
         </p>
-      <div className="flex flex-wrap gap-6 ">
-        <Tabs size="lg" aria-label="Tabs sizes">
+      <div className="flex flex-wrap gap-6 bg-black">
+        <Tabs size="lg" aria-label="Tabs sizes" >
           <Tab key="tag1" title="營隊介紹" />
           <Tab key="tag2" title="課程活動" />
           <Tab key="tag3" title="營隊照片" />
