@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
-import { Navbar } from "@/components/navbar";
+import { Nav } from "@/components/navbar";
 import clsx from "clsx";
 
 export const metadata: Metadata = {
@@ -25,17 +25,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning className="bg-black" >
+    <html lang="en" suppressHydrationWarning className="bg-sky-950" >
       <head />
       <body
         className={clsx(
-          "min-h-screen  font-sans antialiased bg-black",
+          "min-h-screen  font-sans antialiased ",
           fontSans.variable
         )}
       >
         <Providers>
           <div className="relative flex flex-col h-screen">
-            <Navbar />
+            <Nav />
             <main className="container mx-auto max-w-7xl pt-10 px-6 flex-grow">
               {children}
             </main>
