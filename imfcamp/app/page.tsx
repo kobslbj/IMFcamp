@@ -60,19 +60,19 @@ export default function Home() {
         </Card>
       </div>
       <div  data-aos="fade-right" id="course-activities">
-        <div className="text-4xl font-bold text-cyan-600  pt-6  flex justify-center mt-20">
+        <div className="text-4xl font-bold text-sky-200  pt-6  flex justify-center mt-20">
           課程活動
         </div>
         <Schedule />
       </div>
       <div data-aos="fade-up" data-aos-duration="3000" id="course-intro">
-        <div className="text-4xl font-bold text-cyan-600  pt-6  flex justify-center mt-20">
+        <div className="text-4xl font-bold text-sky-200  pt-6  flex justify-center mt-20">
           課程介紹
         </div>
         <CourseCard />
       </div>
       <div data-aos="fade-right " id="camp-photos">
-        <div className="text-4xl font-bold text-cyan-600  pt-6  flex justify-center mt-20">
+        <div className="text-4xl font-bold text-sky-200  pt-6  flex justify-center mt-20">
           營隊照片
         </div>
         <ImageSlide />
