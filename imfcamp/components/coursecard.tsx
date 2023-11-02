@@ -9,12 +9,12 @@ export const CourseCard = () => {
         <Card
           key={course.title}
           isBlurred
-          className="bg-white border rounded-lg overflow-hidden max-w-[610px] shadow-xl my-4 mx-auto mb-6"
+          className=" border rounded-lg overflow-hidden max-w-[610px] shadow-xl my-4 mx-auto mb-6"
           shadow="sm"
         >
           <CardBody>
             <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center ">
-              <div className="relative col-span-6 md:col-span-4">
+              {/* <div className="relative col-span-6 md:col-span-4">
                 <Image
                   alt="Album cover"
                   className="object-cover"
@@ -23,7 +23,7 @@ export const CourseCard = () => {
                   src={course.imageSrc}
                   width="100%"
                 />
-              </div>
+              </div> */}
               <div className="flex flex-col col-span-6 md:col-span-8">
                 <div className="flex justify-between items-start">
                   <div className="flex flex-col gap-0">

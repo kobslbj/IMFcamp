@@ -10,6 +10,7 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
+  Button,
 } from "@nextui-org/react";
 
 export const Nav = () => {
@@ -80,6 +81,11 @@ export const Nav = () => {
           <Link color="foreground" href="">
             報名資訊
           </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Button color="primary" variant="shadow">
+            我要報名
+          </Button>
         </NavbarItem>
       </NavbarContent>
 
