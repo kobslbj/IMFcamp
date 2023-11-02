@@ -5,8 +5,8 @@ import { Image } from "@nextui-org/react";
 import { Card, CardBody, CardHeader, Divider } from "@nextui-org/react";
 import { Schedule } from "../components/schedule";
 import { CourseCard } from "../components/coursecard";
-import { ImageSlide } from "../components/Imageslide";
 import { Info } from "../components/info";
+import { Experience } from "../components/experience";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -98,7 +98,7 @@ export default function Home() {
         </div>
         <Info />
         <div data-aos="fade-up" id="camp-intro">
-          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20">
+          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             營隊介紹
           </div>
           <Card className="max-w-screen-lg mt-4 mb-20">
@@ -119,22 +119,28 @@ export default function Home() {
           </Card>
         </div>
         <div data-aos="fade-right" id="course-activities">
-          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20">
+          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             課程活動
           </div>
           <Schedule />
         </div>
         <div data-aos="fade-up" data-aos-duration="3000" id="course-intro">
-          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20">
+          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             課程介紹
           </div>
           <CourseCard />
         </div>
+        <div data-aos="fade-up" data-aos-duration="3000" id="course-intro">
+          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+            學員回饋
+          </div>
+          <Experience />
+        </div>
         <div data-aos="fade-right " id="camp-photos">
-          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20">
+          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             營隊照片
           </div>
-          <ImageSlide />
+          <Image isBlurred width={1000} src="/all.jpg" alt="picture" />
         </div>
       </section>
     </>

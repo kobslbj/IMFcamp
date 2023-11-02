@@ -1,5 +1,4 @@
 "use client";
-import { Image } from "@nextui-org/react";
 import { Card, CardBody, CardHeader, Divider } from "@nextui-org/react";
 import courses from "../data/coursedata.json";
 export const CourseCard = () => {
@@ -27,7 +26,7 @@ export const CourseCard = () => {
               <div className="flex flex-col col-span-6 md:col-span-8">
                 <div className="flex justify-between items-start">
                   <div className="flex flex-col gap-0">
-                    <h3 className="text-4xl font-bold pl-2">{course.title}</h3>
+                    <h3 className="text-4xl font-bold pl-2 font-serif1">{course.title}</h3>
                     <p className="text-1xl text-foreground/80 p-2">
                       {course.description}
                     </p>

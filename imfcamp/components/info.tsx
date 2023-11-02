@@ -1,5 +1,6 @@
 import { Image } from "@nextui-org/react";
 import { useState, useEffect } from "react";
+
 export const Info = () => {
   const countDownDate = new Date("December 18, 2023 00:00:00").getTime();
 
@@ -57,7 +58,7 @@ export const Info = () => {
               data-aos="fade-up-right"
               data-aos-duration="3000"
             />
-            <div className=" text-2xl font-bold w-[7rem] h-[7rem] flex-shrink bg-[#F5F5F5] rounded-full flex flex-col items-center justify-center text-black leading-normal">
+            <div className=" text-4xl font-bold w-[7rem] h-[7rem] flex-shrink bg-[#F5F5F5] rounded-full flex flex-col items-center justify-center text-black leading-normal">
               地點
             </div>
             <div className="flex flex-col mt-[3.3rem]">
@@ -79,7 +80,7 @@ export const Info = () => {
               data-aos="fade-up-left"
               data-aos-duration="1500"
             />
-            <div className=" text-2xl font-bold w-[7rem] h-[7rem] flex-shrink bg-[#F5F5F5] rounded-full flex flex-col items-center justify-center text-black leading-normal">
+            <div className=" text-4xl font-bold w-[7rem] h-[7rem] flex-shrink bg-[#F5F5F5] rounded-full flex flex-col items-center justify-center text-black leading-normal">
               時間
             </div>
             <div className="flex flex-col  mt-[3.3rem] ">
@@ -95,34 +96,34 @@ export const Info = () => {
         </p>
         <div className="flex flex-row justify-around w-[80%]">
           <div className="w-[10rem] h-[10rem] flex-shrink rounded-full flex flex-col items-center justify-center border-4 border-white">
-            <p className="text-fluorescent  text-4xl font-bold leading-normal">
+            <p className="text-fluorescent  text-5xl font-bold leading-normal">
               {countDown.days}
             </p>
-            <p className="text-fluorescent  text-2xl font-bold leading-normal">
+            <p className="text-white  text-2xl font-bold leading-normal">
               Days
             </p>
           </div>
           <div className="w-[10rem] h-[10rem] flex-shrink rounded-full flex flex-col items-center justify-center border-4 border-white ">
-            <p className="text-fluorescent text-4xl font-bold leading-normal">
+            <p className="text-fluorescent text-5xl font-bold leading-normal">
               {countDown.hours}
             </p>
-            <p className="text-fluorescent  text-2xl font-bold leading-normal">
+            <p className="text-white  text-2xl font-bold leading-normal">
               Hours
             </p>
           </div>
           <div className="w-[10rem] h-[10rem] flex-shrink rounded-full flex flex-col items-center justify-center border-4 border-white">
-            <p className="text-fluorescent text-4xl font-bold leading-normal">
+            <p className="text-fluorescent text-5xl font-bold leading-normal">
               {countDown.minutes}
             </p>
-            <p className="text-fluorescent  text-2xl font-bold leading-normal">
+            <p className="text-white  text-2xl font-bold leading-normal">
               Mins
             </p>
           </div>
           <div className="w-[10rem] h-[10rem] flex-shrink rounded-full flex flex-col items-center justify-center bg-black border-4 border-white z-30">
-            <p className="text-fluorescent  text-4xl leading-normal font-bold">
+            <p className="text-fluorescent  text-5xl leading-normal font-bold">
               {countDown.seconds}
             </p>
-            <p className="text-fluorescent  text-2xl font-bold leading-normal">
+            <p className="text-white  text-2xl font-bold leading-normal">
               seconds
             </p>
           </div>
