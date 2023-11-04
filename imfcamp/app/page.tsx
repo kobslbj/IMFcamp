@@ -143,7 +143,7 @@ export default function Home() {
           <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             營隊照片
           </div>
-          <Image isBlurred width={1000} src="/all.jpg" alt="picture" />
+          <Image isBlurred width={1000} src="/all.JPG" alt="picture" />
         </div>
         <div data-aos="fade-right " id="camp-info">
           <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
