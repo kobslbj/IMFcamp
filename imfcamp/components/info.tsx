@@ -1,4 +1,4 @@
-import { Image } from "@nextui-org/react";
+import { Image, Card, CardHeader, CardBody, Divider } from "@nextui-org/react";
 import { useState, useEffect } from "react";
 
 export const Info = () => {
@@ -43,58 +43,80 @@ export const Info = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="flex items-center justify-center  w-full mt-[10rem]">
+    <div className="flex items-center justify-center  w-full mt-[6rem] relative ">
+      <div className="">
+        <Image
+          width={350}
+          height={300}
+          alt="pig picture"
+          src="/IMG_1191.PNG"
+          classNames={{
+            wrapper: "absolute left-[8%] top-[20%] z-0",
+          }}
+        />
+      </div>
+      <div className=" ">
+        <Image
+          width={300}
+          height={300}
+          alt="pig picture"
+          src="/IMG_1193.PNG"
+          classNames={{
+            wrapper: "absolute right-[8%]  top-[30%] z-0",
+          }}
+        />
+      </div>
       <div className="flex flex-col items-center w-full">
         <div className="flex flex-row">
-          <div className="mr-[20rem] mb-[5rem] flex flex-row relative">
-            <Image
-              width={350}
-              height={300}
-              alt="pig picture"
-              src="/IMG_1191.PNG"
-              classNames={{
-                wrapper: "absolute top-[30%] ",
-              }}
-              data-aos="fade-up-right"
-              data-aos-duration="3000"
-            />
-            <div className=" text-4xl font-bold w-[7rem] h-[7rem] flex-shrink bg-[#F5F5F5] rounded-full flex flex-col items-center justify-center text-black leading-normal">
-              地點
-            </div>
-            <div className="flex flex-col mt-[3.3rem]">
-              <div className="w-[20rem] h-[0.3rem]  bg-[#F5F5F5] rounded-lg " />
-              <p className="ml-[3rem] mt-[1.5rem] text-4xl text-white">
-                陽明交通大學光復校區
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-row relative ">
-            <Image
-              width={300}
-              height={300}
-              alt="pig picture"
-              src="/IMG_1193.PNG"
-              classNames={{
-                wrapper: "absolute right-[8%]  top-[68%] ",
-              }}
-              data-aos="fade-up-left"
-              data-aos-duration="1500"
-            />
-            <div className=" text-4xl font-bold w-[7rem] h-[7rem] flex-shrink bg-[#F5F5F5] rounded-full flex flex-col items-center justify-center text-black leading-normal">
-              時間
-            </div>
-            <div className="flex flex-col  mt-[3.3rem] ">
-              <div className="w-[20rem] h-[0.3rem]  bg-[#F5F5F5] rounded-lg " />
-              <p className="ml-[3rem] mt-[1.5rem] text-4xl text-white">
-                2024 1/26(五) ~ 1/30(二)
-              </p>
-            </div>
+          <div className="flex flex-row gap-20 ">
+            <Card>
+              <CardHeader className="flex gap-3 pl-5">
+                <p className="text-[2rem] font-bold text-fluorescent">
+                  {" "}
+                  報名時間
+                </p>
+              </CardHeader>
+              <Divider />
+              <CardBody>
+                <p className="text-[1.5rem] font-bold">
+                  11/7 (二) ~ 12/18 (一) 23:59
+                </p>
+              </CardBody>
+            </Card>
+            <Card>
+              <CardHeader className="flex gap-3 pl-5">
+                <p className="text-[2rem] font-bold text-fluorescent">
+                  {" "}
+                  營隊日期
+                </p>
+              </CardHeader>
+              <Divider />
+              <CardBody>
+                <p className="text-[1.5rem] font-bold">
+                  2024 年 1/26(五) ~ 1/30(二)
+                </p>
+              </CardBody>
+            </Card>
+            <Card>
+              <CardHeader className="flex gap-3 pl-5">
+                <p className="text-[2rem] font-bold text-fluorescent">
+                  {" "}
+                  營隊地點
+                </p>
+              </CardHeader>
+              <Divider />
+              <CardBody>
+                <p className="text-[1.5rem] font-bold">陽明交通大學 光復校區</p>
+              </CardBody>
+            </Card>
           </div>
         </div>
-        <p className="mb-[5rem] text-4xl font-bold  flex justify-center text-fluorescent">
+
+        <p className="mb-[5rem] text-4xl font-bold  flex justify-center text-fluorescent mt-[6rem]">
           距離報名截止還剩!
         </p>
-        <div className="flex flex-row justify-around w-[80%]">
+
+        <div className="flex flex-row justify-around w-[80%] ">
           <div className="w-[10rem] h-[10rem] flex-shrink rounded-full flex flex-col items-center justify-center border-4 border-white">
             <p className="text-fluorescent  text-5xl font-bold leading-normal">
               {countDown.days}

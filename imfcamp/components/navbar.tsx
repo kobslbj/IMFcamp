@@ -78,7 +78,7 @@ export const Nav = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="">
+          <Link color="foreground" href="#camp-info">
             報名資訊
           </Link>
         </NavbarItem>

@@ -7,6 +7,9 @@ import { Schedule } from "../components/schedule";
 import { CourseCard } from "../components/coursecard";
 import { Info } from "../components/info";
 import { Experience } from "../components/experience";
+import { Question } from "../components/question";
+import { Detail } from "../components/detail";
+import  Footer  from "../components/footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -21,7 +24,7 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <section className="flex flex-col items-center justify-center font-serif ">
+      <section className="flex flex-col items-center justify-center font-serif mb-[5rem]">
         <div className="  flex flex-row items-center gap-10 font-serif relative">
           <Image alt="Cover picture" src="/bg2.png" />
           <div className="text-9xl absolute bottom-[15%] left-[5%] z-10 font-bold  font-serif bg-bw-gradient bg-clip-text text-transparent">
@@ -142,7 +145,20 @@ export default function Home() {
           </div>
           <Image isBlurred width={1000} src="/all.jpg" alt="picture" />
         </div>
+        <div data-aos="fade-right " id="camp-info">
+          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+            報名資訊
+          </div>
+          <Detail />
+        </div>
+        <div data-aos="fade-right " id="camp-qa">
+          <div className="text-4xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+            報名Q&A
+          </div>
+          <Question />
+        </div>
       </section>
+      <Footer />
     </>
   );
 }
