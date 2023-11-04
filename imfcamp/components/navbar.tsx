@@ -82,11 +82,13 @@ export const Nav = () => {
             報名資訊
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          <Button color="primary" variant="shadow">
-            我要報名
-          </Button>
-        </NavbarItem>
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfzUZWG81eqlLq-5lzbxv-_y6ZTMt7H2BplcPyfAcFJQlwE8A/viewform">
+          <NavbarItem>
+            <Button color="primary" variant="shadow" className="text-white font-bold">
+              我要報名
+            </Button>
+          </NavbarItem>
+        </Link>
       </NavbarContent>
 
       <NavbarMenu>
