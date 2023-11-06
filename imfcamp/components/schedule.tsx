@@ -16,19 +16,19 @@ export const Schedule = () => {
       >
         <TableHeader>
           <TableColumn className="px-6 py-3 text-center font-bold text-white  shadow-md text-xl">
-            Day1 2/1
+            Day1 1/26
           </TableColumn>
           <TableColumn className="px-6 py-3 text-center font-bold text-white shadow-md text-xl">
-            Day2 2/2
+            Day2 1/27
           </TableColumn>
           <TableColumn className="px-6 py-3 text-center font-bold text-white  shadow-md text-xl">
-            Day3 2/3
+            Day3 1/28
           </TableColumn>
           <TableColumn className="px-6 py-3 text-center font-bold text-white  shadow-md text-xl">
-            Day4 2/4
+            Day4 1/29
           </TableColumn>
           <TableColumn className="px-6 py-3 text-center font-bold text-white  shadow-md text-xl">
-            Day5 2/5
+            Day5 1/30
           </TableColumn>
         </TableHeader>
         <TableBody>
