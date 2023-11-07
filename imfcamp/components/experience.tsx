@@ -12,7 +12,7 @@ import experiences from "../data/experience.json";
 
 export const Experience = () => {
   return (
-    <div className="flex flex-row gap-8">
+    <div className="flex xl:flex-row flex-col gap-8">
       {experiences.map((experience, index) => (
         <Card key={index} className="max-w-[340px] my-2">
           <CardHeader className="justify-between">

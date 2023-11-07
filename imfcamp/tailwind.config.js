@@ -1,5 +1,5 @@
 import { nextui } from "@nextui-org/theme";
-
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -10,9 +10,14 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'xxs': "360px",
+      'xs': "480px",
+      ...defaultTheme.screens,
+    },
     extend: {
       fontFamily: {
-        serif: ["Noto Serif TC", "serif","noto serif","sans-serif"],
+        serif: ["Noto Serif TC", "serif", "noto serif", "sans-serif"],
       },
       backgroundImage: {
         "bw-gradient": "linear-gradient(to bottom, black, gray, white)",

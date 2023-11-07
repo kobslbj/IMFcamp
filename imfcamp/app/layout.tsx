@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { Providers } from "./providers";
 import { Inter } from "next/font/google";
+import Head from "next/head";
 import clsx from "clsx";
 
 const inter = Inter({ subsets: ["latin"] });

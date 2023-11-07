@@ -9,10 +9,9 @@ import {
 
 export const Schedule = () => {
   return (
-    <div className=" p-4">
+    <div className=" p-4 w-full ">
       <Table
         aria-label="Example static collection table"
-        className="min-w-full  divide-y "
       >
         <TableHeader>
           <TableColumn className="px-6 py-3 text-center font-bold text-white  shadow-md text-xl">
@@ -53,7 +52,7 @@ export const Schedule = () => {
               {row.map((cell, cellIndex) => (
                 <TableCell
                   key={cellIndex}
-                  className={`px-6 py-4 whitespace-no-wrap text-center font-bold text-white  shadow-md text-xl ${
+                  className={` px-6 py-4 whitespace-no-wrap text-center font-bold text-white  shadow-md text-xl ${
                     cellIndex === 0 ? "" : "border-l"
                   }`}
                 >

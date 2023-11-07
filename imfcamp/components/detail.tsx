@@ -13,55 +13,77 @@ import {
 export const Detail = () => {
   return (
     <>
-      <div className="flex flex-row gap-5 mb-[1.25rem]">
+      <div className="flex xl:flex-row flex-col  gap-5 mb-[1.25rem]">
         <Card>
           <CardHeader className="flex gap-3 pl-5">
-            <p className="text-[2rem] font-bold text-fluorescent"> 報名時間</p>
+            <p className="xl:text-[2rem] text-[1.5rem] font-bold text-fluorescent">
+              {" "}
+              報名時間
+            </p>
           </CardHeader>
           <Divider />
           <CardBody>
-            <p className="text-[2rem] font-bold">
+            <p className="xl:text-[2rem] text-[1rem] font-bold">
               11/7 (二) ~ 12/18 (一) 23:59
             </p>
           </CardBody>
         </Card>
         <Card>
           <CardHeader className="flex gap-3 pl-5">
-            <p className="text-[2rem] font-bold text-fluorescent"> 營隊日期</p>
+            <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-fluorescent">
+              {" "}
+              營隊日期
+            </p>
           </CardHeader>
           <Divider />
           <CardBody>
-            <p className="text-[2rem] font-bold">2024 年 1/26(五) ~ 1/30(二)</p>
+            <p className="xl:text-[2rem] text-[1rem] font-bold">
+              2024 年 1/26(五) ~ 1/30(二)
+            </p>
           </CardBody>
         </Card>
         <Card>
           <CardHeader className="flex gap-3 pl-5">
-            <p className="text-[2rem] font-bold text-fluorescent"> 營隊地點</p>
+            <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-fluorescent">
+              {" "}
+              營隊地點
+            </p>
           </CardHeader>
           <Divider />
           <CardBody>
-            <p className="text-[2rem] font-bold">陽明交通大學 光復校區</p>
+            <p className="xl:text-[2rem] text-[1rem] font-bold">
+              陽明交通大學 光復校區
+            </p>
           </CardBody>
         </Card>
       </div>
       <div className="flex flex-row gap-5 mb-[1.25rem]">
         <Card className="w-[50%] ">
           <CardHeader className="flex gap-3 pl-5 ">
-            <p className="text-[2rem] font-bold text-fluorescent"> 個人報名</p>
+            <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-fluorescent ">
+              {" "}
+              個人報名
+            </p>
           </CardHeader>
           <Divider />
           <CardBody>
-            <p className="text-[2rem] font-bold">6,800元/人</p>
+            <p className="xl:text-[2rem] text-[1rem] font-bold">6,800元/人</p>
           </CardBody>
         </Card>
-        <Card className="w-[50%]">
-          <CardHeader className="flex gap-3 pl-5">
-            <p className="text-[2rem] font-bold text-fluorescent"> 團體報名 </p>
-            <p className="text-[1.5rem] font-bold text-white"> 3人(含)以上</p>
+        <Card className="w-[50%] ">
+          <CardHeader className="flex gap-3 pl-5 xl:flex-row flex-col">
+            <p className="xl:text-[2rem] text-[1.5rem] font-bold text-fluorescent ">
+              {" "}
+              團體報名{" "}
+            </p>
+            <p className="xl:text-[2rem] text-[1rem] font-bold text-white">
+              {" "}
+              3人(含)以上
+            </p>
           </CardHeader>
           <Divider />
           <CardBody>
-            <p className="text-[2rem] font-bold">6,500元/人 </p>
+            <p className="xl:text-[2rem] text-[1rem]  font-bold">6,500元/人 </p>
           </CardBody>
         </Card>
       </div>
@@ -77,18 +99,21 @@ export const Detail = () => {
             }}
           />
           <CardHeader className="flex gap-3 pl-5 ">
-            <p className="text-[2rem] font-bold text-fluorescent"> 早鳥優惠</p>
+            <p className="xl:text-[2rem] text-[1.5rem] font-bold text-fluorescent">
+              {" "}
+              早鳥優惠
+            </p>
           </CardHeader>
           <Divider />
           <CardBody className="relative">
-            <p className="text-[2rem] font-bold">
+            <p className="xl:text-[2rem] text-[1rem]  font-bold">
               11/28(二)以前報名 即享300元折扣優惠
             </p>
-            <p className="text-[1.5rem] font-bold">ex:</p>
-            <p className="text-[1.5rem] font-bold">
+            <p className="xl:text-[2rem] text-[1rem]  font-bold">ex:</p>
+            <p className="xl:text-[2rem] text-[1rem]  font-bold">
               個人報名 6,800元/人 ={">"} 6,500元/人
             </p>
-            <p className="text-[1.5rem] font-bold">
+            <p className="xl:text-[2rem] text-[1rem]  font-bold">
               團體報名 6,500元/人 ={">"} 6,200元/人
             </p>
           </CardBody>

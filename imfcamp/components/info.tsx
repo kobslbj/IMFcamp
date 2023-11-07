@@ -43,8 +43,8 @@ export const Info = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="flex items-center justify-center  w-full mt-[6rem] relative ">
-      <div className="">
+    <div className="flex items-center justify-center  w-full xl:mt-[6rem] mt-[2rem] relative ">
+      <div>
         <Image
           width={350}
           height={300}
@@ -55,7 +55,7 @@ export const Info = () => {
           }}
         />
       </div>
-      <div className=" ">
+      <div>
         <Image
           width={300}
           height={300}
@@ -66,86 +66,88 @@ export const Info = () => {
           }}
         />
       </div>
-      <div className="flex flex-col items-center w-full">
-        <div className="flex flex-row">
-          <div className="flex flex-row gap-20 ">
-            <Card>
-              <CardHeader className="flex gap-3 pl-5">
-                <p className="text-[2rem] font-bold text-fluorescent">
+      <div className="flex flex-col items-center  ">
+        <div className="flex flex-row ">
+          <div className="xl:flex flex-row xl:gap-20 xs:gap-6 gap-3 ">
+            <Card className="mt-[1rem] ">
+              <CardHeader className="flex gap-3 pl-5 ">
+                <p className=" xl:text-[2rem] text-[1.5rem]  font-bold text-fluorescent">
                   {" "}
                   報名時間
                 </p>
               </CardHeader>
               <Divider />
               <CardBody>
-                <p className="text-[1.5rem] font-bold">
+                <p className="xl:text-[1.5rem] text-[1.2rem] font-bold">
                   11/7 (二) ~ 12/18 (一) 23:59
                 </p>
               </CardBody>
             </Card>
-            <Card>
+            <Card className="mt-[1rem]">
               <CardHeader className="flex gap-3 pl-5">
-                <p className="text-[2rem] font-bold text-fluorescent">
+                <p className="xl:text-[2rem] text-[1.5rem] font-bold text-fluorescent">
                   {" "}
                   營隊日期
                 </p>
               </CardHeader>
               <Divider />
               <CardBody>
-                <p className="text-[1.5rem] font-bold">
+                <p className="xl:text-[1.5rem] text-[1.2rem] font-bold">
                   2024 年 1/26(五) ~ 1/30(二)
                 </p>
               </CardBody>
             </Card>
-            <Card>
+            <Card className="mt-[1rem]">
               <CardHeader className="flex gap-3 pl-5">
-                <p className="text-[2rem] font-bold text-fluorescent">
+                <p className="xl:text-[2rem] text-[1.5rem] font-bold text-fluorescent">
                   {" "}
                   營隊地點
                 </p>
               </CardHeader>
               <Divider />
               <CardBody>
-                <p className="text-[1.5rem] font-bold">陽明交通大學 光復校區</p>
+                <p className="xl:text-[1.5rem] text-[1.2rem] font-bold">
+                  陽明交通大學 光復校區
+                </p>
               </CardBody>
             </Card>
           </div>
         </div>
 
-        <p className="mb-[5rem] text-4xl font-bold  flex justify-center text-fluorescent mt-[6rem]">
+        <p className="xl:mb-[5rem] mb-[3rem] xl:text-4xl text-3xl font-bold  flex justify-center text-fluorescent mt-[6rem]">
           距離報名截止還剩!
         </p>
 
-        <div className="flex flex-row justify-around w-[80%] ">
-          <div className="w-[10rem] h-[10rem] flex-shrink rounded-full flex flex-col items-center justify-center border-4 border-white">
-            <p className="text-fluorescent  text-5xl font-bold leading-normal">
+        <div className="flex flex-row justify-around xl:w-[80%] w-full gap-2">
+          <div className="xl:w-[10rem] xl:h-[10rem] w-[5rem] h-[5rem] flex-shrink rounded-full flex flex-col items-center justify-center xl:border-4 border-2 border-white">
+            <p className="text-fluorescent  xl:text-5xl text-2xl font-bold leading-normal">
               {countDown.days}
             </p>
-            <p className="text-white  text-2xl font-bold leading-normal">
+            <p className="text-white  xl:text-2xl  text-1xl font-bold leading-normal">
               Days
             </p>
           </div>
-          <div className="w-[10rem] h-[10rem] flex-shrink rounded-full flex flex-col items-center justify-center border-4 border-white ">
-            <p className="text-fluorescent text-5xl font-bold leading-normal">
+          <div className="xl:w-[10rem] xl:h-[10rem] w-[5rem] h-[5rem] flex-shrink rounded-full flex flex-col items-center justify-center xl:border-4 border-2 border-white ">
+            <p className="text-fluorescent xl:text-5xl text-2xl font-bold leading-normal">
               {countDown.hours}
             </p>
-            <p className="text-white  text-2xl font-bold leading-normal">
+            <p className="text-white  xl:text-2xl  text-1xl font-bold leading-normal">
               Hours
             </p>
           </div>
-          <div className="w-[10rem] h-[10rem] flex-shrink rounded-full flex flex-col items-center justify-center border-4 border-white">
-            <p className="text-fluorescent text-5xl font-bold leading-normal">
+          <div className="xl:w-[10rem] xl:h-[10rem] w-[5rem] h-[5rem] flex-shrink rounded-full flex flex-col items-center justify-center xl:border-4 border-2 border-white">
+            <p className="text-fluorescent xl:text-5xl text-2xl font-bold leading-normal">
               {countDown.minutes}
             </p>
-            <p className="text-white  text-2xl font-bold leading-normal">
+            <p className="text-white  xl:text-2xl  text-1xl font-bold leading-normal">
               Mins
             </p>
           </div>
-          <div className="w-[10rem] h-[10rem] flex-shrink rounded-full flex flex-col items-center justify-center bg-black border-4 border-white z-30">
-            <p className="text-fluorescent  text-5xl leading-normal font-bold">
+          <div className="xl:w-[10rem] xl:h-[10rem] w-[5rem] h-[5rem] flex-shrink rounded-full flex flex-col items-center justify-center bg-black xl:border-4 border-2 border-white z-30">
+            <p className="text-fluorescent  xl:text-5xl text-2xl leading-normal font-bold">
               {countDown.seconds}
             </p>
-            <p className="text-white  text-2xl font-bold leading-normal">
+            <p className="text-white  xl:text-2xl  text-1xl font-bold leading-normal">
               seconds
             </p>
           </div>
