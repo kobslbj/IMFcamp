@@ -36,16 +36,16 @@ export const CourseCard = () => {
       <Tabs
         aria-label="Dynamic tabs"
         items={tabs}
-        className="flex xl:w-full flex-col justify-center items-center "
+        className="flex xl:w-full lg:w-full flex-col justify-center items-center "
       >
         {(item) => (
           <Tab
             key={item.id}
             title={item.label}
-            className="flex w-full flex-col justify-center items-center xl:text-2xl xl:p-6  "
+            className="flex w-full flex-col justify-center items-center xl:text-2xl lg:text-2xl xl:p-6 lg:p-6 "
           >
-            <Card className="flex xl:w-[50%] text-lg">
-              <CardBody className="xl:text-2xl xl:p-8">{item.content}</CardBody>
+            <Card className="flex xl:w-[50%] lg:w-[50%]  text-lg">
+              <CardBody className="xl:text-2xl lg:text-2xl xl:p-8 lg:p-8">{item.content}</CardBody>
             </Card>
           </Tab>
         )}

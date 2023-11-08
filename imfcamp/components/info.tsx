@@ -68,7 +68,7 @@ export const Info = () => {
       </div>
       <div className="flex flex-col items-center  ">
         <div className="flex flex-row ">
-          <div className="xl:flex flex-row xl:gap-20 xs:gap-6 gap-3 ">
+          <div className="xl:flex lg:flex md:flex sm:flex flex-row xl:gap-20 xs:gap-6 gap-3 ">
             <Card className="mt-[1rem] ">
               <CardHeader className="flex gap-3 pl-5 ">
                 <p className=" xl:text-[2rem] text-[1.5rem]  font-bold text-fluorescent">
@@ -118,7 +118,7 @@ export const Info = () => {
           距離報名截止還剩!
         </p>
 
-        <div className="flex flex-row justify-around xl:w-[80%] w-full gap-2">
+        <div className="flex flex-row justify-around xl:w-[80%] md:w-[80%] w-full gap-2">
           <div className="xl:w-[10rem] xl:h-[10rem] w-[5rem] h-[5rem] flex-shrink rounded-full flex flex-col items-center justify-center xl:border-4 border-2 border-white">
             <p className="text-fluorescent  xl:text-5xl text-2xl font-bold leading-normal">
               {countDown.days}

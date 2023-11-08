@@ -5,7 +5,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 
 export const Question = () => {
   return (
-    <Accordion variant="bordered" className="xl:w-[50rem]">
+    <Accordion variant="bordered" className="xl:w-[50rem] lg:w-[50rem] md:w-[50rem] sm:w-[36rem]">
       <AccordionItem
         key="1"
         aria-label="Accordion 1"

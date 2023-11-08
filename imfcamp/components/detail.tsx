@@ -14,10 +14,10 @@ import {
 export const Detail = () => {
   return (
     <>
-      <div className="flex xl:flex-row flex-col  gap-5 mb-[1.25rem]">
+      <div className="flex xl:flex-row lg:flex-row md:flex-row sm:flex-row flex-col  gap-5 mb-[1.25rem]">
         <Card>
           <CardHeader className="flex gap-3 pl-5">
-            <p className="xl:text-[2rem] text-[1.5rem] font-bold text-fluorescent">
+            <p className="xl:text-[2rem] lg:text-[2rem]    text-[1.5rem]  font-bold text-fluorescent">
               {" "}
               報名時間
             </p>
