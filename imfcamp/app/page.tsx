@@ -1,7 +1,7 @@
 "use client";
 
-
 import { Image } from "@nextui-org/react";
+import Script from "next/script";
 import { Card, CardBody, CardHeader, Divider } from "@nextui-org/react";
 import { Schedule } from "../components/schedule";
 import { CourseCard } from "../components/coursecard";
@@ -23,9 +23,18 @@ export default function Home() {
 
   return (
     <>
-
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-RQJ1C6K08Q" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-RQJ1C6K08Q');
+        `}
+      </Script>
       <section className="flex flex-col items-center justify-center font-serif mb-[5rem]">
-          <Image width={1000} alt="Cover picture" src="/cover.png"  />
+        <Image width={1000} alt="Cover picture" src="/cover.png" />
         <Info />
         <div data-aos="fade-up" id="camp-intro">
           <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
@@ -53,7 +62,7 @@ export default function Home() {
             課程活動
           </div>
           <Schedule />
-        </div> 
+        </div>
         <div data-aos="fade-up" data-aos-duration="3000" id="course-intro">
           <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             課程介紹
