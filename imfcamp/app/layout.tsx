@@ -25,15 +25,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning >
+    <html lang="en" suppressHydrationWarning  >
       <body className={clsx("min-h-screen   antialiased ")}>
         <Providers>
           <div className="relative flex flex-col h-screen serif ">
-            <main className="container mx-auto   flex-grow serif">  
+            <main className="container    serif ">  
             {/* max-w-7xl */}
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3 serif"></footer>
           </div>
         </Providers>
       </body>

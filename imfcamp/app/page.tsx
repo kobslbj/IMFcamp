@@ -50,12 +50,12 @@ export default function Home() {
             </CardBody>
           </Card>
         </div>
-        <div data-aos="fade-right" id="course-activities">
+        {/* <div data-aos="fade-right" id="course-activities">
           <div className="xl:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             課程活動
           </div>
           <Schedule />
-        </div>
+        </div> */}
         <div data-aos="fade-up" data-aos-duration="3000" id="course-intro">
           <div className="xl:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             課程介紹
