@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Tabs, Tab, Card, CardBody, CardHeader } from "@nextui-org/react";
+import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 
 export const CourseCard = () => {
   let tabs = [
@@ -36,16 +36,16 @@ export const CourseCard = () => {
       <Tabs
         aria-label="Dynamic tabs"
         items={tabs}
-        className="flex w-full flex-col justify-center items-center "
+        className="flex xl:w-full flex-col justify-center items-center "
       >
         {(item) => (
           <Tab
             key={item.id}
             title={item.label}
-            className="flex w-full flex-col justify-center items-center text-2xl p-6  "
+            className="flex w-full flex-col justify-center items-center xl:text-2xl xl:p-6  "
           >
-            <Card className="flex w-[50%] text-lg">
-              <CardBody className="text-2xl p-8">{item.content}</CardBody>
+            <Card className="flex xl:w-[50%] text-lg">
+              <CardBody className="xl:text-2xl xl:p-8">{item.content}</CardBody>
             </Card>
           </Tab>
         )}

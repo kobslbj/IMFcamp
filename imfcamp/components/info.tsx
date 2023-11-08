@@ -51,7 +51,7 @@ export const Info = () => {
           alt="pig picture"
           src="/IMG_1191.PNG"
           classNames={{
-            wrapper: "absolute left-[8%] top-[20%] z-0",
+            wrapper: "absolute xl:left-[8%] xl:top-[20%] hidden z-0",
           }}
         />
       </div>
@@ -62,7 +62,7 @@ export const Info = () => {
           alt="pig picture"
           src="/IMG_1193.PNG"
           classNames={{
-            wrapper: "absolute right-[8%]  top-[30%] z-0",
+            wrapper: "absolute xl:right-[8%]  xl:top-[30%] hidden z-0",
           }}
         />
       </div>

@@ -95,7 +95,7 @@ export const Detail = () => {
             alt="pig picture"
             src="/IMG_1230.PNG"
             classNames={{
-              wrapper: "absolute right-[3rem] bottom-[1px]",
+              wrapper: "absolute xl:right-[3rem] xl:bottom-[1px] hidden",
             }}
           />
           <CardHeader className="flex gap-3 pl-5 ">
