@@ -25,7 +25,7 @@ export default function Footer() {
             <Image src="/facebook.png" alt="image" width={30} height={30} />
           </Link>
         </div>
-        <p className=" text-center text-gray-500 text-[xs] font-normal leading-normal ml-[1.88rem] relative top-[1.5rem]">
+        <p className=" text-center text-gray-500 text-[xs] font-normal leading-normal ml-[1.88rem] relative top-[1rem] text-xs">
           © 2023. All rights reserved
         </p>
       </div>

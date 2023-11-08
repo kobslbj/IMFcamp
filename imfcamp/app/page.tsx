@@ -25,9 +25,7 @@ export default function Home() {
     <>
 
       <section className="flex flex-col items-center justify-center font-serif mb-[5rem]">
-        <div>
-          <Image width={1000} alt="Cover picture" src="/cover.png" />
-        </div>
+          <Image width={1000} alt="Cover picture" src="/cover.png"  />
         <Info />
         <div data-aos="fade-up" id="camp-intro">
           <div className="xl:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
