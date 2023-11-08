@@ -1,6 +1,6 @@
 "use client";
 
-import { Nav } from "@/components/navbar";
+
 import { Image } from "@nextui-org/react";
 import { Card, CardBody, CardHeader, Divider } from "@nextui-org/react";
 import { Schedule } from "../components/schedule";
@@ -23,10 +23,10 @@ export default function Home() {
 
   return (
     <>
-      <Nav />
+
       <section className="flex flex-col items-center justify-center font-serif mb-[5rem]">
         <div>
-          <Image alt="Cover picture" src="/cover.png" />
+          <Image width={1000} alt="Cover picture" src="/cover.png" />
         </div>
         <Info />
         <div data-aos="fade-up" id="camp-intro">

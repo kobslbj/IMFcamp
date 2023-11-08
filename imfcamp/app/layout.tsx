@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { Providers } from "./providers";
 import { Inter } from "next/font/google";
+import { Nav } from "@/components/navbar";
 import clsx from "clsx";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,15 +26,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning  >
-      <body className={clsx("min-h-screen   antialiased ")}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={clsx("min-h-screen antialiased ")}>
         <Providers>
-          <div className="relative flex flex-col h-screen serif ">
-            <main className="container    serif ">  
+          <Nav/>
+          <main className="container   mx-auto serif ">
             {/* max-w-7xl */}
-              {children}
-            </main>
-          </div>
+            {children}
+          </main>
         </Providers>
       </body>
     </html>
