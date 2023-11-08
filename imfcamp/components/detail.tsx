@@ -61,7 +61,6 @@ export const Detail = () => {
         <Card className="w-[50%] ">
           <CardHeader className="flex gap-3 pl-5 ">
             <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-fluorescent ">
-              {" "}
               個人報名
             </p>
           </CardHeader>
@@ -71,19 +70,15 @@ export const Detail = () => {
           </CardBody>
         </Card>
         <Card className="w-[50%] ">
-          <CardHeader className="flex gap-3 pl-5 xl:flex-row flex-col">
+          <CardHeader className="flex gap-3 pl-5 ">
             <p className="xl:text-[2rem] text-[1.5rem] font-bold text-fluorescent ">
-              {" "}
-              團體報名{" "}
-            </p>
-            <p className="xl:text-[2rem] text-[1rem] font-bold text-white">
-              {" "}
-              3人(含)以上
+              團體報名
             </p>
           </CardHeader>
           <Divider />
           <CardBody>
-            <p className="xl:text-[2rem] text-[1rem]  font-bold">6,500元/人 </p>
+            <p className="xl:text-[2rem] text-[1rem]  font-bold">6,500元/人  </p>
+            <p className="xl:text-[1.5rem] text-[0.8rem]  font-bold">3人(含)以上  </p>
           </CardBody>
         </Card>
       </div>
