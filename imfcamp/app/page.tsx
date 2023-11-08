@@ -32,9 +32,9 @@ export default function Home() {
             營隊介紹
           </div>
           <Card className="max-w-screen-lg mt-4 mb-20">
-            <CardHeader className="flex gap-3 justify-center">
-              <div className="flex flex-col  ">
-                <p className="font-bold xl:text-3xl text-2xl text-center">
+            <CardHeader className="flex gap-3 justify-center items-center">
+              <div className="flex flex-col ">
+                <p className="font-bold xl:text-3xl text-2xl text-center ">
                   資訊與財金的結合，讓你成為有競爭力的π型人才!
                 </p>
               </div>
@@ -48,12 +48,12 @@ export default function Home() {
             </CardBody>
           </Card>
         </div>
-        {/* <div data-aos="fade-right" id="course-activities">
+        <div data-aos="fade-right" id="course-activities">
           <div className="xl:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             課程活動
           </div>
           <Schedule />
-        </div> */}
+        </div> 
         <div data-aos="fade-up" data-aos-duration="3000" id="course-intro">
           <div className="xl:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
             課程介紹

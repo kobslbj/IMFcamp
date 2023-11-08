@@ -15,13 +15,15 @@ import {
 
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false); 
+  };
   const menuItems = [
-    "營隊介紹",
-    "課程活動",
-    "營隊照片",
-    "學員回饋",
-    "報名資訊",
+    { text: "營隊介紹", href: "#camp-intro" },
+    { text: "課程活動", href: "#course-activities" },
+    { text: "課程介紹", href: "#course-intro" },
+    { text: "報名資訊", href: "#camp-info" },
+    { text: "報名Q&A", href: "#camp-qa" },
   ];
 
   return (
@@ -73,8 +75,8 @@ export const Nav = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#camp-photos">
-            營隊照片
+          <Link color="foreground" href="#course-intro">
+            課程介紹
           </Link>
         </NavbarItem>
         <NavbarItem>
@@ -82,9 +84,14 @@ export const Nav = () => {
             報名資訊
           </Link>
         </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#camp-qa">
+            報名Q&A
+          </Link>
+        </NavbarItem>
         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfzUZWG81eqlLq-5lzbxv-_y6ZTMt7H2BplcPyfAcFJQlwE8A/viewform">
           <NavbarItem>
-            <Button color="primary" variant="shadow" className="text-white font-bold">
+            <Button color="primary" variant="shadow" className="text-white ">
               我要報名
             </Button>
           </NavbarItem>
@@ -92,14 +99,14 @@ export const Nav = () => {
       </NavbarContent>
 
       <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link className="w-full" color={"foreground"} href="#" size="lg">
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))}
-      </NavbarMenu>
+      {menuItems.map((item, index) => (
+        <NavbarMenuItem key={`${item.text}-${index}`}>
+          <Link className="w-full cursor-pointer" color={"foreground"} href={item.href} size="lg" onClick={handleMenuItemClick}>
+            {item.text}
+          </Link>
+        </NavbarMenuItem>
+      ))}
+    </NavbarMenu>
     </Navbar>
   );
 };
