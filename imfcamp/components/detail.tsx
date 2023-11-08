@@ -8,6 +8,7 @@ import {
   Divider,
   Link,
   Image,
+  Button,
 } from "@nextui-org/react";
 
 export const Detail = () => {
@@ -77,8 +78,10 @@ export const Detail = () => {
           </CardHeader>
           <Divider />
           <CardBody>
-            <p className="xl:text-[2rem] text-[1rem]  font-bold">6,500元/人  </p>
-            <p className="xl:text-[1.5rem] text-[0.8rem]  font-bold">3人(含)以上  </p>
+            <p className="xl:text-[2rem] text-[1rem]  font-bold">6,500元/人 </p>
+            <p className="xl:text-[1.5rem] text-[0.8rem]  font-bold">
+              3人(含)以上{" "}
+            </p>
           </CardBody>
         </Card>
       </div>
@@ -113,6 +116,17 @@ export const Detail = () => {
             </p>
           </CardBody>
         </Card>
+      </div>
+      <div className="w-full flex justify-center mt-5  ">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfzUZWG81eqlLq-5lzbxv-_y6ZTMt7H2BplcPyfAcFJQlwE8A/viewform">
+          <Button
+            color="primary"
+            variant="shadow"
+            className="text-black font-bold text-2xl bg-fluorescent w-[10rem] "
+          >
+            我要報名
+          </Button>
+        </Link>
       </div>
     </>
   );
