@@ -30,7 +30,7 @@ export const Question = () => {
       >
         請於12/21(四)公布錄取名單時，密切注意粉絲團與email通知，會附上繳費資訊！
       </AccordionItem>
-      <AccordionItem key="5" aria-label="Accordion 5" title="5. 該如何團報?">
+      <AccordionItem key="5" aria-label="Accordion 5" title="5. 該如何團報？">
         報名表單會有一個區段是「團報者姓名」，
         只需填入與你一起團報者的姓名即可， 不需要填入自己的名字喔！
         例如：ABC三個人一起團報參加資財營 A只需要填入BC，B只需要填入AC，以此類推
@@ -47,11 +47,11 @@ export const Question = () => {
       <AccordionItem
         key="7"
         aria-label="Accordion 7"
-        title="7. 如果沒有程式、財金領域的底子，可以參加嗎?"
+        title="7. 如果沒有程式、財金領域的底子，可以參加嗎？"
       >
-        當然可以，歡迎大家報名~
+        當然可以，歡迎大家報名～
       </AccordionItem>
-      <AccordionItem key="8" aria-label="Accordion 8" title="8. 營隊交通方式?">
+      <AccordionItem key="8" aria-label="Accordion 8" title="8. 營隊交通方式？">
         交通方式有家長接送、高鐵(新竹高鐵站集合)、火車(新竹火車站集合)，詳細內容等最終結果出來粉專公布。
       </AccordionItem>
     </Accordion>

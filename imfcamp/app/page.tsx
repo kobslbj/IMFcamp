@@ -44,7 +44,7 @@ export default function Home() {
             <CardHeader className="flex gap-3 justify-center items-center">
               <div className="flex flex-col ">
                 <p className="font-bold xl:text-3xl lg:text-3xl text-2xl text-center ">
-                  資訊與財金的結合，讓你成為有競爭力的π型人才!
+                  資訊與財金的結合，讓你成為有競爭力的π型人才！
                 </p>
               </div>
             </CardHeader>

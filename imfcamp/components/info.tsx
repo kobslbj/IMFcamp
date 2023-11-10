@@ -93,7 +93,7 @@ export const Info = () => {
               <Divider />
               <CardBody>
                 <p className="xl:text-[1.5rem] text-[1.2rem] font-bold">
-                  2024 年 1/26(五) ~ 1/30(二)
+                  2024/01/26(五) ~ 1/30(二)
                 </p>
               </CardBody>
             </Card>
@@ -115,7 +115,7 @@ export const Info = () => {
         </div>
 
         <p className="xl:mb-[5rem] mb-[3rem] xl:text-4xl text-3xl font-bold  flex justify-center text-fluorescent mt-[6rem]">
-          距離報名截止還剩!
+          距離報名截止還剩！
         </p>
 
         <div className="flex flex-row justify-around xl:w-[80%] md:w-[80%] w-full gap-2">
@@ -148,7 +148,7 @@ export const Info = () => {
               {countDown.seconds}
             </p>
             <p className="text-white  xl:text-2xl  text-1xl font-bold leading-normal">
-              seconds
+              Seconds
             </p>
           </div>
         </div>
