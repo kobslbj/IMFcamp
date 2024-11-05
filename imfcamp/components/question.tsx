@@ -28,7 +28,7 @@ export const Question = () => {
         aria-label="Accordion 4"
         title="4. 請問要如何繳費呢？"
       >
-        請於12/21(四)公布錄取名單時，密切注意粉絲團與email通知，會附上繳費資訊！
+        請於公布錄取名單時，密切注意粉絲團與email通知，會附上繳費資訊！
       </AccordionItem>
       <AccordionItem key="5" aria-label="Accordion 5" title="5. 該如何團報？">
         報名表單會有一個區段是「團報者姓名」，

@@ -79,7 +79,7 @@ export const Info = () => {
               <Divider />
               <CardBody>
                 <p className="xl:text-[1.5rem] text-[1.2rem] font-bold">
-                  11/1 (五) ~ 12/20 (五) 23:59
+                  11/01 (五) ~ 12/20 (五) 23:59
                 </p>
               </CardBody>
             </Card>
@@ -93,7 +93,7 @@ export const Info = () => {
               <Divider />
               <CardBody>
                 <p className="xl:text-[1.5rem] text-[1.2rem] font-bold">
-                  2025/02/05 (三) ~ 2/09 (日)
+                  2025/02/05 (三) ~ 02/09 (日)
                 </p>
               </CardBody>
             </Card>
