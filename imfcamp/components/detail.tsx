@@ -16,8 +16,8 @@ export const Detail = () => {
     <>
       <div className="flex xl:flex-row lg:flex-row md:flex-row sm:flex-row flex-col  gap-5 mb-[1.25rem]">
         <Card>
-          <CardHeader className="flex gap-3 pl-5">
-            <p className="xl:text-[2rem] lg:text-[2rem]    text-[1.5rem]  font-bold text-fluorescent">
+          <CardHeader className="flex gap-3 pl-5 ">
+            <p className="xl:text-[2rem] lg:text-[2rem]  text-[1.5rem] font-bold text-text-title">
               {" "}
               報名時間
             </p>
@@ -25,13 +25,13 @@ export const Detail = () => {
           <Divider />
           <CardBody>
             <p className="xl:text-[2rem] text-[1rem] font-bold">
-              11/7 (二) ~ 12/18 (一) 23:59
+              11/1 (五) ~ 12/20 (五) 23:59
             </p>
           </CardBody>
         </Card>
         <Card>
           <CardHeader className="flex gap-3 pl-5">
-            <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-fluorescent">
+            <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-text-title">
               {" "}
               營隊日期
             </p>
@@ -39,13 +39,13 @@ export const Detail = () => {
           <Divider />
           <CardBody>
             <p className="xl:text-[2rem] text-[1rem] font-bold">
-              2024 年 1/26(五) ~ 1/30(二)
+              2025 年 2/05(三) ~ 2/09(日)
             </p>
           </CardBody>
         </Card>
         <Card>
           <CardHeader className="flex gap-3 pl-5">
-            <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-fluorescent">
+            <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-text-title">
               {" "}
               營隊地點
             </p>
@@ -61,24 +61,24 @@ export const Detail = () => {
       <div className="flex flex-row gap-5 mb-[1.25rem]">
         <Card className="w-[50%] ">
           <CardHeader className="flex gap-3 pl-5 ">
-            <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-fluorescent ">
+            <p className="xl:text-[2rem] text-[1.5rem]  font-bold text-text-title ">
               個人報名
             </p>
           </CardHeader>
           <Divider />
           <CardBody>
-            <p className="xl:text-[2rem] text-[1rem] font-bold">6,800元/人</p>
+            <p className="xl:text-[2rem] text-[1rem] font-bold">7,300元/人</p>
           </CardBody>
         </Card>
         <Card className="w-[50%] ">
           <CardHeader className="flex gap-3 pl-5 ">
-            <p className="xl:text-[2rem] text-[1.5rem] font-bold text-fluorescent ">
+            <p className="xl:text-[2rem] text-[1.5rem] font-bold text-text-title ">
               團體報名
             </p>
           </CardHeader>
           <Divider />
           <CardBody>
-            <p className="xl:text-[2rem] text-[1rem]  font-bold">6,500元/人 </p>
+            <p className="xl:text-[2rem] text-[1rem]  font-bold">7,000元/人 </p>
             <p className="xl:text-[1.5rem] text-[0.8rem]  font-bold">
               3人(含)以上{" "}
             </p>
@@ -97,7 +97,7 @@ export const Detail = () => {
             }}
           />
           <CardHeader className="flex gap-3 pl-5 ">
-            <p className="xl:text-[2rem] text-[1.5rem] font-bold text-fluorescent">
+            <p className="xl:text-[2rem] text-[1.5rem] font-bold text-text-title">
               {" "}
               早鳥優惠
             </p>
@@ -105,20 +105,20 @@ export const Detail = () => {
           <Divider />
           <CardBody className="relative">
             <p className="xl:text-[2rem] text-[1rem]  font-bold">
-              11/28(二)以前報名 即享300元折扣優惠
+              11/28(四)以前報名 即享300元折扣優惠
             </p>
             <p className="xl:text-[2rem] text-[1rem]  font-bold">ex:</p>
             <p className="xl:text-[2rem] text-[1rem]  font-bold">
-              個人報名 6,800元/人 ={">"} 6,500元/人
+              個人報名 7,300元/人 ={">"} 7,000元/人
             </p>
             <p className="xl:text-[2rem] text-[1rem]  font-bold">
-              團體報名 6,500元/人 ={">"} 6,200元/人
+              團體報名 7,000元/人 ={">"} 6,700元/人
             </p>
           </CardBody>
         </Card>
       </div>
       <div className="w-full flex justify-center mt-5  ">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfzUZWG81eqlLq-5lzbxv-_y6ZTMt7H2BplcPyfAcFJQlwE8A/viewform">
+        <Link href="https://reurl.cc/E6xmg1">
           <Button
             color="primary"
             variant="shadow"

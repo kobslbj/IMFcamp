@@ -56,13 +56,13 @@ export const Nav = () => {
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <p className="font-bold text-inherit">第十七屆陽明交大資財營</p>
+          <p className="font-bold text-inherit">第十八屆陽明交大資財營</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4">
         <NavbarBrand>
-          <p className="font-bold text-2xl">第十七屆陽明交大資財營</p>
+          <p className="font-bold text-2xl">第十八屆陽明交大資財營</p>
         </NavbarBrand>
         <NavbarItem>
           <Link color="foreground" href="#camp-intro">
@@ -89,7 +89,7 @@ export const Nav = () => {
             報名Q&A
           </Link>
         </NavbarItem>
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfzUZWG81eqlLq-5lzbxv-_y6ZTMt7H2BplcPyfAcFJQlwE8A/viewform">
+        <Link href="https://reurl.cc/E6xmg1">
           <NavbarItem>
             <Button color="primary" variant="shadow" className="text-white ">
               我要報名

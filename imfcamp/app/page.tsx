@@ -34,10 +34,10 @@ export default function Home() {
         `}
       </Script>
       <section className="flex flex-col items-center justify-center font-serif mb-[5rem]">
-        <Image width={1000} alt="Cover picture" src="/cover.png" />
+        <Image width={1000} alt="Cover picture" src="/2025coverImage.png" />
         <Info />
         <div data-aos="fade-up" id="camp-intro">
-          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-brand-primary  pt-6  flex justify-center mt-20 mb-10">
             營隊介紹
           </div>
           <Card className="max-w-screen-lg mt-4 mb-20">
@@ -58,37 +58,37 @@ export default function Home() {
           </Card>
         </div>
         <div data-aos="fade-right" id="course-activities">
-          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-orange  pt-6  flex justify-center mt-20 mb-10">
             課程活動
           </div>
           <Schedule />
         </div>
         <div data-aos="fade-up" data-aos-duration="3000" id="course-intro">
-          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-orange  pt-6  flex justify-center mt-20 mb-10">
             課程介紹
           </div>
           <CourseCard />
         </div>
         <div data-aos="fade-up" data-aos-duration="3000" id="course-intro">
-          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-orange  pt-6  flex justify-center mt-20 mb-10">
             學員回饋
           </div>
           <Experience />
         </div>
         <div data-aos="fade-right " id="camp-photos">
-          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-orange  pt-6  flex justify-center mt-20 mb-10">
             營隊照片
           </div>
-          <Image isBlurred width={1000} src="/all.JPG" alt="picture" />
+          <Image isBlurred width={1000} src="/2025picture.jpg" alt="picture" />
         </div>
         <div data-aos="fade-right " id="camp-info">
-          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-orange  pt-6  flex justify-center mt-20 mb-10">
             報名資訊
           </div>
           <Detail />
         </div>
         <div data-aos="fade-right " id="camp-qa">
-          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-fluorescent  pt-6  flex justify-center mt-20 mb-10">
+          <div className="xl:text-4xl lg:text-4xl text-3xl font-bold text-orange  pt-6  flex justify-center mt-20 mb-10">
             報名Q&A
           </div>
           <Question />

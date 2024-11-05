@@ -27,10 +27,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={clsx("min-h-screen antialiased ")}>
+      <body className={clsx("min-h-screen antialiased bg-background-secondary")}>
         <Providers>
           <Nav/>
-          <main className="container   mx-auto serif ">
+          <main className="container mx-auto serif text-custom-navy">
             {/* max-w-7xl */}
             {children}
           </main>
