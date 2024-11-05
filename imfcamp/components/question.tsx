@@ -14,7 +14,7 @@ export const Question = () => {
         如果有收到Google表單的自動回覆，就代表報名成功咯～還請已報名的學員留意一下自己的信箱!如果沒有收到請速速私訊粉專～
       </AccordionItem>
       <AccordionItem key="2" aria-label="Accordion 2" title="2. 請問額滿了嗎？">
-        只要在12/18 23:59前完成報名表填寫都算是報名成功，錄取機會都相同喔！
+        只要在12/20 23:59前完成報名表填寫都算是報名成功，錄取機會都相同喔！
       </AccordionItem>
       <AccordionItem
         key="3"
